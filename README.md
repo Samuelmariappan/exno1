@@ -88,7 +88,7 @@ r.iloc[[1, 2, 5], [2, 3]]
 ```
 ![image](https://github.com/user-attachments/assets/fcb18064-f283-42ba-b1db-670c1f29e8b3)
 
-
+## IQR(Inter Quartile Range)
 ```
 import pandas as pd
 d=pd.read_csv("/content/iris.csv")
@@ -160,7 +160,7 @@ sns.boxplot(x='sepal_width',data=delid)
 ```
 ![image](https://github.com/user-attachments/assets/879e004f-3142-4f41-97f5-bb4e85c97251)
 
-
+## Z SCORE
 ```
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -218,4 +218,6 @@ df1
 
 
 # Result
+
+Thus we have cleaned the data and remove the outliers by detection using IQR and Z-score method.
           
